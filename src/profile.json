@@ -8,7 +8,7 @@
     },
     "profile": {
         "title": "Profile",
-        "background_color": "#FFF",
+        "background_color": "#e0dfd5",
         "about": {
             "title": "About me",
             "description": "Austin-based web developer with a knack for making things easy."
@@ -24,8 +24,8 @@
                     "value": "Austin, TX"
                 },
                 {
-                    "label": "Education",
-                    "value": "University of Texas at Austin, 2011-2013"
+                    "label": "Lorem",
+                    "value": "Ipsum"
                 }
 
             ]
@@ -33,14 +33,14 @@
     },
     "experience": {
         "title": "Experience",
-        "background_color": "#41564E",
+        "background_color": "#C8553D",
         "list": [{
                 "title": "Education",
                 "list": [{
-                    "location": "On my computer",
+                    "location": "University of Texas at Austin",
                     "time": {
-                        "from": "2017",
-                        "to": "Present"
+                        "from": "2011",
+                        "to": "2013"
                     },
                     "title": "Building this",
                     "description": "Quickly spun this up in a day for my own personal website"
@@ -69,31 +69,31 @@
     },
     "skills": {
         "title": "Skills",
-        "background_color": "#FFF",
+        "background_color": "#e0dfd5",
         "list": [{
-            "label": "Speed",
-            "value": 5
-        }, {
-            "label": "Simplicity",
-            "value": 5
-        }, {
-            "label": "Elegance",
-            "value": 5
-        }, {
-            "label": "Uniqueness",
+            "label": "React",
             "value": 4
+        }, {
+            "label": "CSS",
+            "value": 4
+        }, {
+            "label": "HTML",
+            "value": 5
+        }, {
+            "label": "node.js",
+            "value": 3
         }]
     },
     "contact": {
-        "title": "Any other links?",
+        "title": "Find me here!",
         "background_color": "#313638",
         "list": [{
-            "label": "Live Example",
-            "link": "http://thomaswood.me/",
-            "icon_class": "globe"
+            "label": "LinkedIn",
+            "link": "https://www.linkedin.com/in/taylen-nettles-4741b354/",
+            "icon_class": "linkedin"
         }, {
             "label": "GitHub",
-            "link": "https://github.com/tomasswood/preact-homepage-generator",
+            "link": "https://github.com/taynettles",
             "icon_class": "github"
         }]
     }

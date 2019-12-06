@@ -1,3 +1,4 @@
+/* eslint-disable react/prefer-stateless-function */
 import { h, Component } from 'preact';
 
 export const formatTime = ( { from, to } ) => [ from, to ].filter( val => val ).join( ' - ' );
