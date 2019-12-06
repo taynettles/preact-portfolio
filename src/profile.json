@@ -1,46 +1,33 @@
 {
     "header": {
-        "title": "Homepage Generator",
-        "subtitle": "Quickly spin up a personal website",
-        "background_color": "#663AB7",
-        "background_image": "newcastle.jpg",
-        "background_images": [{
-            "width": 2560,
-            "filename": "newcastle-xlarge.jpg"
-        }, {
-            "width": 1920,
-            "filename": "newcastle.jpg"
-        }, {
-            "width": 1600,
-            "filename": "newcastle-large.jpg"
-        }, {
-            "width": 1280,
-            "filename": "newcastle-medium.jpg"
-        }, {
-            "width": 960,
-            "filename": "newcastle-small.jpg"
-        }, {
-            "width": 480,
-            "filename": "newcastle-xsmall.jpg"
-        }]
+        "title": "Taylen Nettles",
+        "subtitle": "Web Developer",
+        "background_color": "#C8553D",
+        "background_image": "trianglify-lowres.png"
+     
     },
     "profile": {
         "title": "Profile",
         "background_color": "#FFF",
         "about": {
             "title": "About me",
-            "description": "I love easy to build pages!"
+            "description": "Austin-based web developer with a knack for making things easy."
         },
         "bio": {
             "title": "Bio",
             "list": [{
-                    "label": "How cool?",
-                    "value": "Very cool."
+                    "label": "Hi, my name is Taylen.",
+                    "value": "I like figuring out how things tick."
                 },
                 {
                     "label": "Where",
-                    "value": "In the cloud..."
+                    "value": "Austin, TX"
+                },
+                {
+                    "label": "Education",
+                    "value": "University of Texas at Austin, 2011-2013"
                 }
+
             ]
         }
     },
@@ -99,7 +86,7 @@
     },
     "contact": {
         "title": "Any other links?",
-        "background_color": "#5DC6DD",
+        "background_color": "#313638",
         "list": [{
             "label": "Live Example",
             "link": "http://thomaswood.me/",
