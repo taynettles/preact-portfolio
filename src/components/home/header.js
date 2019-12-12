@@ -33,13 +33,8 @@ export const chooseBackgroundImages = ( backgroundImages, imageModules, { viewpo
 
 const determineImage = ( backgroundImage, backgroundImages ) => {
 	let headerImage;
-	if ( backgroundImages ) {
-		const imageModules = requireAll( require.context( '../../assets/header', false ) );
-		headerImage = chooseBackgroundImages( backgroundImages, imageModules, { ...viewSize() } );
-	} else {
-		headerImage = require( `../../assets/header/${backgroundImage}` );
-	}
-
+	headerImage = require( `../../assets/header/${backgroundImage}` );
+	
 	if ( headerImage ) {
 		return `url(${ headerImage })`;
 	}

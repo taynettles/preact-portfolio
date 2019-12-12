@@ -4,7 +4,6 @@
         "subtitle": "Web Developer",
         "background_color": "#C8553D",
         "background_image": "trianglify-lowres.png"
-     
     },
     "profile": {
         "title": "Profile",
@@ -42,27 +41,35 @@
                         "from": "2011",
                         "to": "2013"
                     },
-                    "title": "Building this",
-                    "description": "Quickly spun this up in a day for my own personal website"
+                    "title": "Major",
+                    "description": "Computer Science"
                 }]
             },
             {
-                "title": "What else?",
+                "title": "Work",
                 "list": [{
-                    "location": "Example",
+                    "location": "CRE Closer",
                     "time": {
-                        "from": "Apr 2011",
-                        "to": "Apr 2014"
+                        "from": "August 2016"
                     },
-                    "title": "Something else",
-                    "description": "Some more stuff."
+                    "title": "Web Developer",
+                    "description": "Integrated main website design and Stripe integration for CRE Closer."
+                },  {  
+                    "location": "Captain Marketing",
+                    "time": {
+                        "from": "Feb 2012",
+                        "to": "Aug 2012"
+                    },
+                    "title": "Junior Web Developer",
+                    "description": "Collaborated with senior developers to design and develop client websites."
                 }, {
-                    "location": "Example",
+                    "location": "UT Austin Liberal Arts ITS",
                     "time": {
-                        "from": "Apr 2014"
+                        "from": "Jan 2012",
+                        "to": "Sep 2012"
                     },
-                    "title": "Something else",
-                    "description": "Some more stuff."
+                    "title": "Desktop Support Assistant",
+                    "description": "Deployed and maintained systems for faculty and staff."
                 }]
             }
         ]
@@ -72,16 +79,16 @@
         "background_color": "#e0dfd5",
         "list": [{
             "label": "React",
-            "value": 4
+            "value": 3
         }, {
             "label": "CSS",
             "value": 4
         }, {
             "label": "HTML",
-            "value": 5
+            "value": 3
         }, {
             "label": "node.js",
-            "value": 3
+            "value": 2
         }]
     },
     "contact": {
@@ -95,6 +102,10 @@
             "label": "GitHub",
             "link": "https://github.com/taynettles",
             "icon_class": "github"
+        }, {
+            "label": "Email",
+            "link": "mailto:taynettles@gmail.com",
+            "icon_class": "envelope"
         }]
     }
 }
